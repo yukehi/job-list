@@ -1,0 +1,168 @@
+body{
+  background-color: #f0fafb;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+.haed-bar{
+  height: 155px;
+  width: auto;
+  background-image: url(../images/bg-header-desktop.svg);
+  background-color: #5da5a4;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.continor{
+  margin: 6% 5% 0 5%;
+}
+.card{
+  box-shadow: 0px 5px 25px -5px #b7cacd;
+  background-color: white;
+  border-radius: 10px;
+  height: 152px;
+  width: auto;
+  margin: 1.8% 0 0 0;
+}
+
+.border-color{
+  border-left: solid #58a7a2;
+
+}
+
+.company-logo{
+  margin: 2.2% 0 auto 5%;
+}
+
+.left-side{
+  flex: 1;
+  margin: 1.2% 0 0 0;
+
+}
+.top-left-side{
+  margin: 2.1% 0 0 2%;
+}
+.colored{
+  color: #7ec4bd;
+  font-size: 1rem;
+  margin: 8% 0 0 auto;
+}
+.box-new{
+  background-color: #5daea8;
+  color: white;
+  border-radius: 15px;
+  font-size: 0.6rem;
+  padding: 0;
+  height: 24px;
+  width: 51px;
+  margin: 0 0 0 1.7%;
+}
+.new{
+  margin: 0;
+  padding: 8% 10% 3% 15% ;
+
+}
+.box-featured{
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  font-size: 0.6rem;
+  padding: 0;
+  height: 24px;
+  width: 79px;
+  margin: 0 0 0 0.7%;
+}
+.featured{
+  margin: 0;
+  padding: 5% 10% 3% 10% ;
+}
+.right-side{
+  flex: 1;
+  order: 3;
+}
+
+.job{
+  margin: 0 0 0 0;
+  padding: 0 0 0 5%;
+  font-size: 1.2rem;
+}
+
+.middle-left-side{
+  margin: 1.1% 0 0 2%;
+}
+.middle-title{
+  margin: 0;
+}
+.bottom-left-side{
+  font-family: 'Lato', sans-serif;
+  font-size: 0.6rem;
+  margin: 0.3% 0 0 2%;
+}
+.dot{
+  margin: 2.1% 1% 0 1%;
+}
+.list{
+  list-style: none;
+  margin: 0 0 0 25%;
+}
+
+.item-list{
+  margin: 15% 0 0 4%;
+  background-color: #eef7f6;
+  color: #89c2bb;
+  border-radius: 2px;
+  padding: 1% 1% 1% 1% ;
+}
+
+@media screen and (max-width : 600px ) {
+  .haed-bar{
+    background-image: url(../images/bg-header-mobile.svg);
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+
+  .card{
+    flex-direction: column;
+    margin: 15% 0 0 0;
+    height: 255px;
+  }
+  .company-logo{
+    position: relative;
+    bottom: 12%;
+    left: 10%;
+    margin: 0 0 0 0 ;
+
+  }
+  .img{
+    width: 20%;
+    height: auto;
+  }
+
+  .left-side{
+    position: relative;
+    bottom: 15%;
+    left: 3%;
+  }
+  .right-side{
+    position: relative;
+    bottom: 10%;
+  }
+  .list{
+    flex-wrap :wrap;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  .item-list{
+    margin-top: 2%;
+  }
+  .dot{
+    margin: 4% 1% 0 1% ;
+  }
+
+}
